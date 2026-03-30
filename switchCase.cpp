@@ -3,6 +3,7 @@
 using namespace std;
 
 int main(){
+
     int x;
 
     cout<<"PERULANGAN FOR"<<endl;
@@ -11,6 +12,13 @@ int main(){
     }
     cout<<endl;
     srand(time(0));
+
+cout<<"PERULANGAN WHILE"<<endl;
+x = 1 + rand()%10;
+
+while(x<=5){
+    cout<<"Bilangan acak ="<<x <<endl;
+    x = rand()%10;
 }
 
-
+}
